@@ -16,9 +16,7 @@
 
 - **Version Control:**
   - **⌘ + T:** Aktualisieren
-  - **⌘ + K:** Markieren (Commit)
-  - **⌘ + ⇧ + K:** Push
-  - **⌘ + ⌥ + C:** Compare mit aktueller Version
+  - **⌘ + ⌥ + C:** Commit
 
 - **Debugging:**
   - **⌘ + \`:** Zwischen Editor und Debug-Bereich wechseln
