@@ -37,6 +37,3 @@
   - **⌘ + R:** Build und Run
   - **⌘ + . :** Build abbrechen
   - **⌘ + U:** Test durchführen
-
-
-test
