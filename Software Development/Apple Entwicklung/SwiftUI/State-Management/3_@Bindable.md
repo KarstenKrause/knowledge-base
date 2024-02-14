@@ -58,4 +58,7 @@ Sollen States eines ViewModels in einer View gebindet werden, muss das ViewModel
                     TextField("Stundenlohn", text: $jobVM.hourlyWage)
                 }
                 ...
+            }
+        }
+    }
 ```
