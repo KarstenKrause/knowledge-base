@@ -6,7 +6,7 @@
 Sie sind nicht dafür gedacht in andere Unter-Views geteilt zu werden.
 Dafür gibt sollten die Property-Wrapper wie **@EnvironmentObject**, **@ObsevedObject** oder **@Bindable**.
 
-### Beispiel für ein @State-Property
+**Beispiel für ein @State-Property:**
 
 ```swift
 struct ContentView: View {
@@ -26,7 +26,7 @@ Two Way Bindings sind dafür gedacht, States bei bestimmten Aktionen automatisch
 
 Zum Beispiel bei der Eingabe von Text in einem Textfeld. Der Inhalt des Textfelds wird in einem State gespeichert und soll sich jedes mal nach einer Nutzereingabe aktualisieren.
 
-### Beispiel
+**Beispiel:**
 
 ```swift
 struct ContentView: View {

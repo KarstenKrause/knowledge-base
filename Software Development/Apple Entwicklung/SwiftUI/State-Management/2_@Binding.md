@@ -6,6 +6,7 @@ Diese Kind-View soll **@State**-Properties der Eltern-View bei bestimmten Aktion
 Wichtig hierbei ist, dass ein **@Binding** kein Wert zugewiesen werden darf, da er diesen über seine Eltern-View bezieht.
 
 ## Beispiel
+
 Der Sheet wird nur dann angezeigt, wenn **showSheet** = true ist.
 
 ```swift
