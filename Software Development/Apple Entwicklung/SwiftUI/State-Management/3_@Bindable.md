@@ -13,7 +13,8 @@ Mehr Details in der [offiziellen Dokumentation](https://developer.apple.com/docu
 import SwiftUI
 import Observation
 
-@Observable class JobViewModel {
+@Observable
+class JobViewModel {
     // Aktuell müssen Initialwerte angegeben werden
     var companyName = ""
     var jobTitle = ""

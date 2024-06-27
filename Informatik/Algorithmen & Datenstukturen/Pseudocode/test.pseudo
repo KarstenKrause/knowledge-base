@@ -1,0 +1,29 @@
+
+// Beispiel eines Pseudocodes
+
+function main()
+    display "Bitte geben Sie Ihr Gewicht in Kilogramm ein:"
+    gewicht = Eingabe()
+    
+    display "Bitte geben Sie Ihre Größe in Metern ein:"
+    größe = Eingabe()
+    
+    display "Ihr BMI beträgt:", berechneBMI(gewicht, größe)
+    display "Sie haben: ", kategorisiereBMI(bmi)
+end function
+
+function berechneBMI(gewicht, größe)
+    return gewicht / (größe * größe)
+end function
+
+function kategorisiereBMI(bmi)
+    if bmi < 18.5 then
+        display "Untergewicht"
+    else if bmi ≥ 18.5 und bmi < 24.9 then
+        display "Normalgewicht"
+    else if bmi ≥ 25 und bmi < 29.9 then
+        display "Übergewicht"
+    else
+        display "Adipositas"
+    end if
+end function
